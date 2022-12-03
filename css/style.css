@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Roboto+Condensed&family=Source+Sans+Pro&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-size: cover;
+}
+
+/* h1 kodlari */
+
+h1{
+    color: white;
+    font: size 40px;
+    font-family: sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    margin: 20px;
+}
+
+h1>span{
+    color: #000; /* renk kodlari*/
+}
+
+/* linklerin kodlari */
+
+.link{
+    float: right;
+}
+
+.link>ul>li{
+    list-style: none;
+    display: inline;
+}
+
+.link a{
+    color: white;
+    font-size: 20px;
+    font-weight: bolder;
+    margin-top: -60px;
+    margin-right: 20px;
+    text-decoration: none;
+}
+
+.link a:hover{
+color: black;
+text-decoration: underline;
+}
+
+section{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%,-50%) ;
+}
+
+body> section > h2{
+    font-size: 30px;
+    color: white;
+}
+
+body section h2 span{
+    color: black;
+}
+
+section p{
+    font-size: 18px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+section a{
+    color: rgb(0, 0, 0);
+    background-color: rgb(245, 212, 29);
+    font-size: 22px;
+    border-radius: 10px;
+    text-decoration: none;
+    border-color: orange;
+    border: 3px soid orange;
+    margin: 15px;
+    padding: 3px 20px;
+}
+
+section a:hover{
+    border: 3px solid yellow;
+}
